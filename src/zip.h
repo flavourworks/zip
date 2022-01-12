@@ -431,4 +431,8 @@ extern ZIP_EXPORT int zip_extract(const char *zipname, const char *dir,
 }
 #endif
 
+#ifdef MAX_PATH
+#undef MAX_PATH
+#endif
+
 #endif
